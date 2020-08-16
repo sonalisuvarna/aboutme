@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Welcome to my page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="C:\Users\sonal\Desktop\IDS517_Suvarna_Sonali_Seat50_HW4\homework4.css"> 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#aboutme" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT ME</a>
+    <a href="#resume" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RESUME</a>
+	<a href="#likes" class="w3-bar-item w3-button w3-padding-large w3-hide-small">LIKES</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="https://www.linkedin.com/in/sonali-suvarna-b4aa43197" class="w3-bar-item w3-button">LinkedIn</a>
+        <a href="https://www.facebook.com/sonali.suvarna.58" class="w3-bar-item w3-button">Facebook</a>
+        <a href="https://www.instagram.com/sonalee06/" class="w3-bar-item w3-button">Instagram</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#aboutme" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT ME</a>
+  <a href="#resume" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RESUME</a>
+  <a href="#likes" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">LIKES</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+<!--  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>-->
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="scene.jpg" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small" style="font-size:20px">
+      <!--Qoute 1-->
+       <p><b><i>"There are no limits to what you can accomplish, except the limits you place on your own thinking."</i></b></p>
+	  <p><i>Bryan Tracy</i><p> 	 
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="BTS_conc.jpg" style="width:100%">
+    <div class="w3-display-left w3-container w3-text-white w3-padding-32 w3-hide-small" style="font-size:20px">
+      <!--Qoute 2-->
+      <p><b><i>"My back hurts in order to let my wings sprout."</i></b></p>
+	  <p><i>BTS ("Wings")</i><p> 	  
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="Carpe.jpg" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small" style="font-size:20px">
+      <!--Qoute 3-->
+      <p><b><i>"Forever is composed of nows"</i></b></p>  
+      <p><i>Emily Dickinson</i><p> 	  
+    </div>
+  </div>
+
+  <!-- The About me Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="aboutme">
+    <h2 class="w3-wide">About Me</h2>
+    <p class="w3-opacity" style="color:green; font-size: 34px;"><i><b>Sonali Suvarna</b></i></p>
+    <p class="w3-justify">Hi, I'm Sonali Suvarna. I am a student at the University of Illinois at Chicago. I am currently pursuing my Master’s degree in Management Information Systems. 
+	 I have completed my Bachelor's Degree in Computer Engineering from University of Mumbai. Identifying improved approaches and enhanced solutions to business challenges are activities that drive and inspire me.
+	I have always been an earnest learner and have strived to learn and acquire new skills. My hobbies include painting, playing badminton, reading books and learning more about a culture that fascinates me.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third" style="color:purple;font-size: 20px";>
+        <p><i>Smile</i></p>
+        <img src="Sula_f1.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:100% ; height:400px;">
+      </div>
+      <div class="w3-third" style="color:purple;font-size: 20px";>
+        <p><i>Sparkle</i></p>
+        <img src="Sula_s.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:80%; height:400px;">
+      </div>
+      <div class="w3-third" style="color:purple;font-size: 20px";>
+        <p><i>Shine</i></p>
+        <img src="Chi_f.jpg" class="w3-round" alt="Random Name" style="width:100%; height:400px;">
+      </div>
+    </div>
+  </div>
+ 
+ <!-- The Resume Section -->
+<!-- Page Container -->
+<div class="w3-grey w3-container w3-padding-64" id="resume">
+<div class="w3-content w3-margin-top" style="max-width:1000px;" >
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <!--<img src="/w3images/avatar_hat.jpg" style="width:100%" alt="Avatar">-->
+          <div class="w3-display-bottomleft w3-container w3-text-black" style="text-align:center">
+            <h2>RESUME</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-blue"></i>Software Engineer</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-blue"></i>Chicago, IL</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-blue"></i>sonalisuvarna96@gmail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-blue"></i>312-478-9985</p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-blue"></i>Skills</b></p>
+          <p>SQL</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:90%">90%</div>
+          </div>
+          <p>HTML, CSS, PHP, JavaScript</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:80%">
+              <div class="c w3-text-white">80%</div>
+            </div>
+          </div>
+		  <p>SAP</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:80%">
+              <div class="w3-center w3-text-white">80%</div>
+            </div>
+          </div>
+		  <p>Java</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:75%">
+              <div class="w3-center w3-text-white">75%</div>
+            </div>
+          </div>
+          <p>Data Analysis</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:70%">70%</div>
+          </div>
+          <p>Python</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:50%">50%</div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-blue"></i>Languages</b></p>
+          <p>English</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-blue" style="height:24px;width:100%"></div>
+          </div>
+          <p>Hindi</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-blue" style="height:24px;width:95%"></div>
+          </div>
+          <p>Marathi</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-blue" style="height:24px;width:75%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-8px"><i class="fa fa-suitcase fa-fw w3-margin-right w3-large w3-text-blue"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Software Engineer</b></h5>
+		  <h5 class="w3-opacity" style="font-size: 16px";><b>Larsen & Toubro Infotech </b></h5>
+          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jul 2018 - Jul 2019 </h6>
+		  <ul>
+			<li>Completed training in SAP ABAP and HANA Overview. </li>
+			<li>Assisted in translating business requirements to technical specifications. </li>
+			<li>Effectively analyzed master data and business processes and created reports for senior leadership. </li>
+			<li>Implemented the Mosaic Profiler for clients to help solve SAP’s S4 HANA migration and implementation challenges.</li>
+			<li>Developed codes for automation process using ABAP.</li>
+		</ul>
+          <hr>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-top-16px; w3-padding-right-8px; w3-padding-bottom-16px; w3-padding-left-8px;"><i class="fa fa-certificate fa-fw w3-margin-right w3-large w3-text-blue"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>University of Illinois at Chicago</b></h5>
+          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2019 - <span class="w3-tag w3-blue w3-round">Current</span></h6>
+          <p>Master Degree - Management Information Systems</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>University of Mumbai</b></h5>
+          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jul 2014 - Jul 2018</h6>
+          <p>Bachelor Degree - Computer Engineering</p>
+		  <hr>
+        </div>
+      </div>
+	  
+	  <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-top-16px; w3-padding-right-8px; w3-padding-bottom-16px; w3-padding-left-8px;"><i class="fa fa-certificate fa-fw w3-margin-right w3-large w3-text-blue"></i>Academic Projects</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Boston Property Analysis</b></h5>
+		  <h5 class="w3-opacity" style="font-size: 16px";><i>Technologies Used:</i> Tableau, R </h5>
+          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i> Sept 2019 – Nov 2019 </h6>
+		  <ul>
+			<li>Performed statistical analysis on the Boston property dataset with 49,000 records using R and Tableau to determine the area best fit for a luxury gym.  </li>
+			<li>Analyzed and created visualizations based on factors like highest residential and commercial value, land size versus unit count and residential composition in different zip codes.  </li>
+		  </ul>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Game Recommender System</b></h5>
+		   <h5 class="w3-opacity" style="font-size: 16px";> <i>Technologies Used:</i>  HTML, CSS, PHP, JavaScript, MySQL, Python </h5>
+          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jul 2014 - Jul 2018</h6>
+		  <ul>
+			<li>A recommendation algorithm is used to evaluate games through the opinions of other similar gamers using collaborative filtering techniques in order to predict and recommend new games to the gamer.  </li>
+			<li>The system also uses free-form text reviews written by members of the community, along with information about the games that a particular user likes, in order to recommend new games. </li>
+		  </ul>
+		  <hr>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="likes">
+  <h3 class="w3-center">Learn more about me!</h3>
+  <p class="w3-center"><em>Here are some things that I like.</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <p class="w3-center" style="font-size:20px"><em><b>Quotes</b></em></p>
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="quote1.png" style="width:100%; height:300px" onclick="onClick(this)" class="w3-hover-opacity" alt="Oprah Winfrey">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="qoute2.png" style="width:100%; height:300px" onclick="onClick(this)" class="w3-hover-opacity" alt="Theodore Roosevelt">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="qoute3.png" style="width:100%; height:300px" onclick="onClick(this)" class="w3-hover-opacity" alt="Roald Dahl">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="quote4.png" style="width:100%; height:300px" onclick="onClick(this)" class="w3-hover-opacity" alt="Jimmy Dean">
+    </div>
+  </div>
+
+  <p class="w3-center" style="font-size:20px";><em><b>Artists</b></em></p>
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="bts.jpg" style="width:100%; height:300px" onclick="onClick(this)" class="w3-hover-opacity" alt="BTS">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="lauv.jpg" style="width:100%;height:300px" onclick="onClick(this)" class="w3-hover-opacity" alt="Lauv">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="lt.jpg" style="width:100%; height:300px" onclick="onClick(this)" class="w3-hover-opacity" alt="The Local Train">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="sam.jpg" style="width:100%; height:300px" onclick="onClick(this)" class="w3-hover-opacity" alt="Sam Simth">
+    </div>
+  </div>
+  
+  <p class="w3-center" style="font-size:20px"><em><b>Books</b></em></p>
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="book1.jpg" style="width:100%; height:300px" onclick="onClick(this)" class="w3-hover-opacity" alt="THOSE WHO WALK AWAY FROM OMELAS BY URSULA K. LE GUIN">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="book2.jpg" style="width:100%; height:300px" onclick="onClick(this)" class="w3-hover-opacity" alt="ME BEFORE YOU BY JOJO MOYES">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="book3.jpg" style="width:100%; height:300px" onclick="onClick(this)" class="w3-hover-opacity" alt="Into the Magic Shop by James R. Doty">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="book4.jpg" style="width:100%; height:300px" onclick="onClick(this)" class="w3-hover-opacity" alt="The Alchemist by Paulo Coelho">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+  <!-- The Contact Section -->
+  <div class="w3-black w3-container w3-padding-64" id="contact">
+  <div class="w3-container w3-content" style="max-width:800px" >
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-left"><i>You can reach out to me at:</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Chicago, IL, US<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +1 312-478-9985<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: sonalisuvarna96@gmail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form method="post" action="mailto:sonalisuvarna96@gmail" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-grey w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-54 w3-center w3-opacity w3-light-grey w3-xlarge">
+   <p><b> Follow Me </b></p>
+  <p class="w3-medium">Let's be social</p>
+  <a href="https://www.facebook.com/sonali.suvarna.58" class="fa fa-facebook-official w3-hover-opacity"></a>
+  <a href="https://www.instagram.com/sonalee06/" class="fa fa-instagram w3-hover-opacity"></a>
+<!--  <i class="fa fa-snapchat w3-hover-opacity"></i>-->
+<!--  <i class="fa fa-pinterest-p w3-hover-opacity"></i>-->
+  <a href="https://twitter.com/sonalee_" class="fa fa-twitter w3-hover-opacity"></a>
+  <a href="https://www.linkedin.com/in/sonali-suvarna-b4aa43197" class="fa fa-linkedin w3-hover-opacity"></a>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
